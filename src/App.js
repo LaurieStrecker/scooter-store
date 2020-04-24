@@ -1,12 +1,16 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <p>Starting here</p>
-    </div>
-  );
+import Layout from './components/Layout';
+import Inventory from './containers/Inventory';
+
+class App extends Component {
+  render () {
+    return (
+      <Layout>
+        <Inventory />
+      </Layout>
+    );
+  }
 }
 
 export default App;
