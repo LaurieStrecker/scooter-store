@@ -9,7 +9,7 @@ class Inventory extends Component {
             <Aux>
                 <Scooter />
             </Aux>
-        );
+        )
     }
 }
 

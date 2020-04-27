@@ -1,9 +1,15 @@
 import React from 'react';
 
-const scooters = ( props ) => {
+import Aux from '../../hoc/Aux';
+
+const scooter = ( props ) => {
     return (
+        <Aux>
         <div>List of Scooters</div>
+        <div>How to Buy A Scooter</div>
+        </Aux>
+
     );
 }
 
-export default scooters;
+export default scooter;
